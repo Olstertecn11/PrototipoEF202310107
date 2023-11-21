@@ -94,6 +94,9 @@
     <EmbeddedResource Include="frmAplicaciones.resx">
       <DependentUpon>frmAplicaciones.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="frmMantPeliculas.resx">
+      <DependentUpon>frmMantPeliculas.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="MenuPrototipo.resx">
       <DependentUpon>MenuPrototipo.cs</DependentUpon>
     </EmbeddedResource>
