@@ -71,6 +71,12 @@
     <Compile Include="frmAplicaciones.Designer.cs">
       <DependentUpon>frmAplicaciones.cs</DependentUpon>
     </Compile>
+    <Compile Include="frmMantCines.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmMantCines.Designer.cs">
+      <DependentUpon>frmMantCines.cs</DependentUpon>
+    </Compile>
     <Compile Include="frmMantPeliculas.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -93,6 +99,9 @@
   <ItemGroup>
     <EmbeddedResource Include="frmAplicaciones.resx">
       <DependentUpon>frmAplicaciones.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmMantCines.resx">
+      <DependentUpon>frmMantCines.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frmMantPeliculas.resx">
       <DependentUpon>frmMantPeliculas.cs</DependentUpon>
