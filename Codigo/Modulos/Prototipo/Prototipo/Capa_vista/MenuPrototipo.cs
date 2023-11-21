@@ -108,7 +108,10 @@ namespace Vista_PrototipoMenu
 
         private void button1_Click(object sender, EventArgs e)
         {
-
+            frmReservacion form = new frmReservacion();
+            form.MdiParent = this;
+            form.Show();
+            hideSubMenu();
         }
     }
 }
