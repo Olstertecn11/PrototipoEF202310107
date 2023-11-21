@@ -30,6 +30,7 @@ namespace Vista_PrototipoMenu
         private void InitializeComponent()
         {
             this.btn_reservacion = new System.Windows.Forms.Button();
+            this.textBox1 = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
             // btn_reservacion
@@ -46,20 +47,30 @@ namespace Vista_PrototipoMenu
             this.btn_reservacion.Text = "Realizar Reservación";
             this.btn_reservacion.UseVisualStyleBackColor = false;
             // 
+            // textBox1
+            // 
+            this.textBox1.Location = new System.Drawing.Point(50, 168);
+            this.textBox1.Name = "textBox1";
+            this.textBox1.Size = new System.Drawing.Size(100, 20);
+            this.textBox1.TabIndex = 1;
+            // 
             // frmReservacion
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.textBox1);
             this.Controls.Add(this.btn_reservacion);
             this.Name = "frmReservacion";
             this.Text = "frmReservacion";
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
         #endregion
 
         private System.Windows.Forms.Button btn_reservacion;
+        private System.Windows.Forms.TextBox textBox1;
     }
 }
